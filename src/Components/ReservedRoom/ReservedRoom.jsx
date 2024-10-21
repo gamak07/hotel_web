@@ -7,13 +7,10 @@ const ReservedRoom = () => {
     const navigate = useNavigate()
     const { bookedRoom, cancelBooking, handleCheckout } = useRooms()
     
-    // const handleCheckout = () =>{
-    //     navigate('/success')
-    // }
   return (
     <div className='bg-[#ffffff] h-[60vh] w-[100%] overflow-y-auto'>
         {bookedRoom.map(room =>(
-            <div className="flex h-full w-full mx-auto p-6 bg-white shadow-lg rounded-lg">
+            <div key={room.id} className="flex h-full w-full mx-auto p-6 bg-white shadow-lg rounded-lg">
                 <div className='w-[60%]'>
                     <img src={room.image} alt={room.name} className="w-full h-full object-cover rounded-t-lg" />
                 </div>

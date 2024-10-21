@@ -11,7 +11,7 @@ const RoomLists = () => {
   }
     
   return (
-    <div className='w-[85%] grid grid-cols-3 gap-[1rem] p-[1rem]'>
+    <div className='w-full grid grid-cols-3 gap-[1rem] p-[1rem]'>
         {featuredRooms.map(room =>(
             <RoomListsItem rooms={room} key={room.id} />
         ))}

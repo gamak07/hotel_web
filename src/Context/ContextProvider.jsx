@@ -1,5 +1,5 @@
 import React, { useEffect, createContext, useContext, useReducer } from 'react'
-import { useNavigate } from 'react-router-dom'
+// import { useNavigate } from 'react-router-dom'
 
 const RoomContext = createContext()
 
@@ -26,7 +26,7 @@ const reducer = (state, action) =>{
         case 'featuredRooms':
             return{
                 ...state,
-                featuredRooms: action.payload
+                featuredRooms: action.payload,
             }
         
         case 'getRoomDetails':
@@ -36,6 +36,10 @@ const reducer = (state, action) =>{
             }
 
         case 'booking':
+            const alreadyBooked = state.bookedRoom.find(room => room.id === action.payload.id);
+            if (alreadyBooked) {
+                return state; // No change if room is already booked
+            }
             return{
                 ...state,
                 bookedRoom:[...state.bookedRoom, action.payload] 
@@ -94,6 +98,11 @@ const ContextProvider = ({children}) => {
     }
 
     const getBookedRooms = (book) =>{
+        const alreadyBooked = bookedRoom.find(room => room.id === book.id);
+        if (alreadyBooked) {
+        alert("This room is already booked!");
+        return;
+    }
         dispatch({type: 'booking', payload: book})
     }
 
@@ -114,7 +123,7 @@ const ContextProvider = ({children}) => {
             getRoomDetails,
             getBookedRooms,
             cancelBooking,
-            handleCheckout
+            handleCheckout,
         }}
     >
         {children}

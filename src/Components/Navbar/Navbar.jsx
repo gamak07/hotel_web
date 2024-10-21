@@ -7,8 +7,6 @@ const Navbar = () => {
     const [showReservedRoom, setShowReservedRoom] = useState(false)
     const handleShowContent = () =>{
       setShowReservedRoom(prev => !prev)
-      console.log(showReservedRoom);
-      
     }
 
   return (
