@@ -1,10 +1,15 @@
 {
-  "rooms":[
+  "rooms": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Deluxe King Suite",
       "pricePerNight": 250,
-      "amenities": ["Free Wi-Fi", "Air Conditioning", "TV", "Mini Bar"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "TV",
+        "Mini Bar"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1661884238187-1c274b3c3413?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fERlbHV4ZSUyMEtpbmclMjBTdWl0ZSUyMGhvdGVsfGVufDB8fDB8fHww",
       "availableRooms": 5,
       "maxGuests": 2,
@@ -12,13 +17,21 @@
       "roomSize": "45 sqm",
       "description": "A luxurious suite with a king-sized bed, spacious seating area, and ocean view.",
       "isFeatured": true,
-      "availableDates": ["2024-10-15", "2024-10-16", "2024-10-17"]
+      "availableDates": [
+        "2024-10-15",
+        "2024-10-16",
+        "2024-10-17"
+      ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Executive Double Room",
       "pricePerNight": 180,
-      "amenities": ["Free Wi-Fi", "Air Conditioning", "Flat-screen TV"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Flat-screen TV"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 3,
       "maxGuests": 4,
@@ -26,13 +39,21 @@
       "roomSize": "35 sqm",
       "description": "Comfortable double room with modern decor and amenities.",
       "isFeatured": false,
-      "availableDates": ["2024-10-18", "2024-10-19"]
+      "availableDates": [
+        "2024-10-18",
+        "2024-10-19"
+      ]
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Family Suite",
       "pricePerNight": 320,
-      "amenities": ["Free Wi-Fi", "Kitchen", "Air Conditioning", "Balcony"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Kitchen",
+        "Air Conditioning",
+        "Balcony"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 2,
       "maxGuests": 6,
@@ -40,13 +61,22 @@
       "roomSize": "65 sqm",
       "description": "Spacious family suite with a separate living area and kitchenette.",
       "isFeatured": true,
-      "availableDates": ["2024-10-15", "2024-10-20"]
+      "availableDates": [
+        "2024-10-15",
+        "2024-10-20"
+      ]
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Presidential Suite",
       "pricePerNight": 500,
-      "amenities": ["Private Pool", "Free Wi-Fi", "Air Conditioning", "Home Theater", "Butler Service"],
+      "amenities": [
+        "Private Pool",
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Home Theater",
+        "Butler Service"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 1,
       "maxGuests": 4,
@@ -54,13 +84,20 @@
       "roomSize": "150 sqm",
       "description": "Experience unmatched luxury in the Presidential Suite with private pool and butler service.",
       "isFeatured": false,
-      "availableDates": ["2024-10-15", "2024-10-22"]
+      "availableDates": [
+        "2024-10-15",
+        "2024-10-22"
+      ]
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Single Economy Room",
       "pricePerNight": 100,
-      "amenities": ["Free Wi-Fi", "Air Conditioning", "TV"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "TV"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 10,
       "maxGuests": 1,
@@ -68,13 +105,22 @@
       "roomSize": "20 sqm",
       "description": "A cozy and affordable room perfect for solo travelers.",
       "isFeatured": true,
-      "availableDates": ["2024-10-12", "2024-10-16"]
+      "availableDates": [
+        "2024-10-12",
+        "2024-10-16"
+      ]
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Luxury Penthouse",
       "pricePerNight": 750,
-      "amenities": ["Private Terrace", "Hot Tub", "Free Wi-Fi", "Home Theater", "Jacuzzi"],
+      "amenities": [
+        "Private Terrace",
+        "Hot Tub",
+        "Free Wi-Fi",
+        "Home Theater",
+        "Jacuzzi"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 1,
       "maxGuests": 4,
@@ -82,13 +128,21 @@
       "roomSize": "200 sqm",
       "description": "A stunning penthouse with a private terrace and jacuzzi, offering panoramic city views.",
       "isFeatured": false,
-      "availableDates": ["2024-10-17", "2024-10-21"]
+      "availableDates": [
+        "2024-10-17",
+        "2024-10-21"
+      ]
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Business Suite",
       "pricePerNight": 220,
-      "amenities": ["Free Wi-Fi", "Work Desk", "Air Conditioning", "Conference Room Access"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Work Desk",
+        "Air Conditioning",
+        "Conference Room Access"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 4,
       "maxGuests": 2,
@@ -96,13 +150,21 @@
       "roomSize": "40 sqm",
       "description": "A perfect suite for business travelers with conference room access and work desk.",
       "isFeatured": false,
-      "availableDates": ["2024-10-12", "2024-10-18"]
+      "availableDates": [
+        "2024-10-12",
+        "2024-10-18"
+      ]
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Garden Villa",
       "pricePerNight": 450,
-      "amenities": ["Private Garden", "Free Wi-Fi", "Air Conditioning", "Private Pool"],
+      "amenities": [
+        "Private Garden",
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Private Pool"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 2,
       "maxGuests": 4,
@@ -110,13 +172,20 @@
       "roomSize": "90 sqm",
       "description": "A tranquil villa surrounded by lush gardens with its own private pool.",
       "isFeatured": false,
-      "availableDates": ["2024-10-10", "2024-10-19"]
+      "availableDates": [
+        "2024-10-10",
+        "2024-10-19"
+      ]
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Superior Room",
       "pricePerNight": 170,
-      "amenities": ["Free Wi-Fi", "Air Conditioning", "TV"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "TV"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 7,
       "maxGuests": 3,
@@ -124,13 +193,21 @@
       "roomSize": "30 sqm",
       "description": "A modern room with superior facilities and comfort.",
       "isFeatured": false,
-      "availableDates": ["2024-10-11", "2024-10-18"]
+      "availableDates": [
+        "2024-10-11",
+        "2024-10-18"
+      ]
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Honeymoon Suite",
       "pricePerNight": 300,
-      "amenities": ["Romantic Decor", "Free Wi-Fi", "Jacuzzi", "Private Balcony"],
+      "amenities": [
+        "Romantic Decor",
+        "Free Wi-Fi",
+        "Jacuzzi",
+        "Private Balcony"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 1,
       "maxGuests": 2,
@@ -138,13 +215,20 @@
       "roomSize": "60 sqm",
       "description": "A romantic suite designed for honeymooners with jacuzzi and private balcony.",
       "isFeatured": false,
-      "availableDates": ["2024-10-15", "2024-10-23"]
+      "availableDates": [
+        "2024-10-15",
+        "2024-10-23"
+      ]
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Junior Suite",
       "pricePerNight": 200,
-      "amenities": ["Free Wi-Fi", "Air Conditioning", "Mini Bar"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Mini Bar"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 5,
       "maxGuests": 3,
@@ -152,13 +236,21 @@
       "roomSize": "35 sqm",
       "description": "A stylish junior suite with all modern amenities and a seating area.",
       "isFeatured": false,
-      "availableDates": ["2024-10-12", "2024-10-18"]
+      "availableDates": [
+        "2024-10-12",
+        "2024-10-18"
+      ]
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Penthouse Loft",
       "pricePerNight": 550,
-      "amenities": ["Private Balcony", "Jacuzzi", "Free Wi-Fi", "Home Theater"],
+      "amenities": [
+        "Private Balcony",
+        "Jacuzzi",
+        "Free Wi-Fi",
+        "Home Theater"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 1,
       "maxGuests": 4,
@@ -166,13 +258,21 @@
       "roomSize": "120 sqm",
       "description": "An expansive penthouse loft with high ceilings and panoramic city views.",
       "isFeatured": false,
-      "availableDates": ["2024-10-16", "2024-10-20"]
+      "availableDates": [
+        "2024-10-16",
+        "2024-10-20"
+      ]
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Ocean View Suite",
       "pricePerNight": 280,
-      "amenities": ["Private Balcony", "Free Wi-Fi", "Air Conditioning", "Mini Bar"],
+      "amenities": [
+        "Private Balcony",
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Mini Bar"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 3,
       "maxGuests": 2,
@@ -180,13 +280,20 @@
       "roomSize": "50 sqm",
       "description": "A beautiful suite with stunning ocean views and a private balcony.",
       "isFeatured": false,
-      "availableDates": ["2024-10-13", "2024-10-18"]
+      "availableDates": [
+        "2024-10-13",
+        "2024-10-18"
+      ]
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Standard Twin Room",
       "pricePerNight": 150,
-      "amenities": ["Free Wi-Fi", "Air Conditioning", "Flat-screen TV"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Flat-screen TV"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 6,
       "maxGuests": 2,
@@ -194,13 +301,20 @@
       "roomSize": "30 sqm",
       "description": "A cozy twin room with modern amenities for two guests.",
       "isFeatured": false,
-      "availableDates": ["2024-10-15", "2024-10-20"]
+      "availableDates": [
+        "2024-10-15",
+        "2024-10-20"
+      ]
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Luxury Bungalow",
       "pricePerNight": 400,
-      "amenities": ["Private Garden", "Free Wi-Fi", "Outdoor Pool"],
+      "amenities": [
+        "Private Garden",
+        "Free Wi-Fi",
+        "Outdoor Pool"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 2,
       "maxGuests": 4,
@@ -208,13 +322,20 @@
       "roomSize": "85 sqm",
       "description": "A spacious and private bungalow with a garden and outdoor pool.",
       "isFeatured": false,
-      "availableDates": ["2024-10-17", "2024-10-21"]
+      "availableDates": [
+        "2024-10-17",
+        "2024-10-21"
+      ]
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Superior King Room",
       "pricePerNight": 190,
-      "amenities": ["Free Wi-Fi", "Air Conditioning", "Mini Bar"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Mini Bar"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 3,
       "maxGuests": 2,
@@ -222,13 +343,20 @@
       "roomSize": "40 sqm",
       "description": "A superior room with king-sized bed and a mini bar for a relaxing stay.",
       "isFeatured": true,
-      "availableDates": ["2024-10-12", "2024-10-17"]
+      "availableDates": [
+        "2024-10-12",
+        "2024-10-17"
+      ]
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Classic Single Room",
       "pricePerNight": 120,
-      "amenities": ["Free Wi-Fi", "Air Conditioning", "TV"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "TV"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 7,
       "maxGuests": 1,
@@ -236,13 +364,21 @@
       "roomSize": "25 sqm",
       "description": "A cozy single room with all essential amenities for a solo traveler.",
       "isFeatured": false,
-      "availableDates": ["2024-10-11", "2024-10-18"]
+      "availableDates": [
+        "2024-10-11",
+        "2024-10-18"
+      ]
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Skyline Suite",
       "pricePerNight": 350,
-      "amenities": ["Free Wi-Fi", "Private Balcony", "Air Conditioning", "Mini Bar"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Private Balcony",
+        "Air Conditioning",
+        "Mini Bar"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 2,
       "maxGuests": 3,
@@ -250,13 +386,20 @@
       "roomSize": "70 sqm",
       "description": "A luxurious suite offering spectacular skyline views from the private balcony.",
       "isFeatured": false,
-      "availableDates": ["2024-10-13", "2024-10-20"]
+      "availableDates": [
+        "2024-10-13",
+        "2024-10-20"
+      ]
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Budget Room",
       "pricePerNight": 90,
-      "amenities": ["Free Wi-Fi", "Air Conditioning", "TV"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "TV"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 8,
       "maxGuests": 2,
@@ -264,13 +407,21 @@
       "roomSize": "18 sqm",
       "description": "An affordable budget room with essential amenities for short stays.",
       "isFeatured": false,
-      "availableDates": ["2024-10-12", "2024-10-16"]
+      "availableDates": [
+        "2024-10-12",
+        "2024-10-16"
+      ]
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Penthouse Suite",
       "pricePerNight": 600,
-      "amenities": ["Private Terrace", "Jacuzzi", "Free Wi-Fi", "Home Theater"],
+      "amenities": [
+        "Private Terrace",
+        "Jacuzzi",
+        "Free Wi-Fi",
+        "Home Theater"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 1,
       "maxGuests": 4,
@@ -278,13 +429,20 @@
       "roomSize": "180 sqm",
       "description": "A luxurious penthouse suite with a private terrace, jacuzzi, and home theater.",
       "isFeatured": false,
-      "availableDates": ["2024-10-18", "2024-10-22"]
+      "availableDates": [
+        "2024-10-18",
+        "2024-10-22"
+      ]
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Beachfront Suite",
       "pricePerNight": 420,
-      "amenities": ["Free Wi-Fi", "Private Balcony", "Beach Access"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Private Balcony",
+        "Beach Access"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 2,
       "maxGuests": 4,
@@ -292,13 +450,21 @@
       "roomSize": "60 sqm",
       "description": "A stunning suite with direct beach access and breathtaking ocean views.",
       "isFeatured": false,
-      "availableDates": ["2024-10-13", "2024-10-19"]
+      "availableDates": [
+        "2024-10-13",
+        "2024-10-19"
+      ]
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Executive Suite",
       "pricePerNight": 310,
-      "amenities": ["Free Wi-Fi", "Air Conditioning", "Work Desk", "Mini Bar"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Work Desk",
+        "Mini Bar"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 3,
       "maxGuests": 3,
@@ -306,13 +472,20 @@
       "roomSize": "55 sqm",
       "description": "A spacious executive suite with a work desk and modern amenities.",
       "isFeatured": false,
-      "availableDates": ["2024-10-12", "2024-10-17"]
+      "availableDates": [
+        "2024-10-12",
+        "2024-10-17"
+      ]
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "Poolside Bungalow",
       "pricePerNight": 375,
-      "amenities": ["Free Wi-Fi", "Private Pool", "Air Conditioning"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Private Pool",
+        "Air Conditioning"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 2,
       "maxGuests": 4,
@@ -320,13 +493,20 @@
       "roomSize": "75 sqm",
       "description": "A luxurious poolside bungalow with private pool access and modern decor.",
       "isFeatured": false,
-      "availableDates": ["2024-10-16", "2024-10-21"]
+      "availableDates": [
+        "2024-10-16",
+        "2024-10-21"
+      ]
     },
     {
-      "id": 24,
+      "id": "24",
       "name": "Grand Suite",
       "pricePerNight": 450,
-      "amenities": ["Private Balcony", "Jacuzzi", "Free Wi-Fi"],
+      "amenities": [
+        "Private Balcony",
+        "Jacuzzi",
+        "Free Wi-Fi"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 1,
       "maxGuests": 4,
@@ -334,13 +514,20 @@
       "roomSize": "100 sqm",
       "description": "A grand suite with a jacuzzi, private balcony, and stunning city views.",
       "isFeatured": false,
-      "availableDates": ["2024-10-14", "2024-10-19"]
+      "availableDates": [
+        "2024-10-14",
+        "2024-10-19"
+      ]
     },
     {
-      "id": 25,
+      "id": "25",
       "name": "Studio Apartment",
       "pricePerNight": 160,
-      "amenities": ["Free Wi-Fi", "Air Conditioning", "Kitchenette"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "Kitchenette"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 4,
       "maxGuests": 2,
@@ -348,13 +535,20 @@
       "roomSize": "45 sqm",
       "description": "A cozy studio apartment with a kitchenette, perfect for extended stays.",
       "isFeatured": false,
-      "availableDates": ["2024-10-12", "2024-10-17"]
+      "availableDates": [
+        "2024-10-12",
+        "2024-10-17"
+      ]
     },
     {
-      "id": 26,
+      "id": "26",
       "name": "Classic Double Room",
       "pricePerNight": 140,
-      "amenities": ["Free Wi-Fi", "Air Conditioning", "TV"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "TV"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 5,
       "maxGuests": 2,
@@ -362,13 +556,21 @@
       "roomSize": "30 sqm",
       "description": "A stylish classic double room with modern amenities and comfortable decor.",
       "isFeatured": false,
-      "availableDates": ["2024-10-14", "2024-10-18"]
+      "availableDates": [
+        "2024-10-14",
+        "2024-10-18"
+      ]
     },
     {
-      "id": 27,
+      "id": "27",
       "name": "Luxury Apartment",
       "pricePerNight": 500,
-      "amenities": ["Private Balcony", "Jacuzzi", "Full Kitchen", "Free Wi-Fi"],
+      "amenities": [
+        "Private Balcony",
+        "Jacuzzi",
+        "Full Kitchen",
+        "Free Wi-Fi"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 2,
       "maxGuests": 4,
@@ -376,13 +578,20 @@
       "roomSize": "90 sqm",
       "description": "A spacious luxury apartment with a full kitchen, jacuzzi, and private balcony.",
       "isFeatured": true,
-      "availableDates": ["2024-10-16", "2024-10-22"]
+      "availableDates": [
+        "2024-10-16",
+        "2024-10-22"
+      ]
     },
     {
-      "id": 28,
+      "id": "28",
       "name": "Economy Room",
       "pricePerNight": 100,
-      "amenities": ["Free Wi-Fi", "Air Conditioning", "TV"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air Conditioning",
+        "TV"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 10,
       "maxGuests": 2,
@@ -390,13 +599,20 @@
       "roomSize": "20 sqm",
       "description": "An affordable economy room with basic amenities for a short stay.",
       "isFeatured": false,
-      "availableDates": ["2024-10-13", "2024-10-18"]
+      "availableDates": [
+        "2024-10-13",
+        "2024-10-18"
+      ]
     },
     {
-      "id": 29,
+      "id": "29",
       "name": "Mountain View Suite",
       "pricePerNight": 340,
-      "amenities": ["Free Wi-Fi", "Private Balcony", "Mini Bar"],
+      "amenities": [
+        "Free Wi-Fi",
+        "Private Balcony",
+        "Mini Bar"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 3,
       "maxGuests": 3,
@@ -404,13 +620,21 @@
       "roomSize": "55 sqm",
       "description": "A suite with spectacular mountain views and a private balcony.",
       "isFeatured": false,
-      "availableDates": ["2024-10-12", "2024-10-17"]
+      "availableDates": [
+        "2024-10-12",
+        "2024-10-17"
+      ]
     },
     {
-      "id": 30,
+      "id": "30",
       "name": "Royal Suite",
       "pricePerNight": 700,
-      "amenities": ["Private Pool", "Jacuzzi", "Free Wi-Fi", "Butler Service"],
+      "amenities": [
+        "Private Pool",
+        "Jacuzzi",
+        "Free Wi-Fi",
+        "Butler Service"
+      ],
       "image": "https://plus.unsplash.com/premium_photo-1723901831010-3c6b64fa2206?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbSUyMHZpZXd8ZW58MHx8MHx8fDA%3D",
       "availableRooms": 1,
       "maxGuests": 5,
@@ -418,7 +642,29 @@
       "roomSize": "200 sqm",
       "description": "The most luxurious suite with a private pool, jacuzzi, and personal butler service.",
       "isFeatured": true,
-      "availableDates": ["2024-10-18", "2024-10-22"]
+      "availableDates": [
+        "2024-10-18",
+        "2024-10-22"
+      ]
+    }
+  ],
+  "bookings": [
+    
+  ],
+  "checkIn": [
+    {
+      "id": "9",
+      "name": "Superior Room",
+      "checkOutDate": "2024-10-23",
+      "totalDays": 0.9999929861111111,
+      "totalPrice": 169.99880763888888
+    },
+    {
+      "id": "3",
+      "name": "Family Suite",
+      "checkOutDate": "2024-10-23",
+      "totalDays": 0.9999998611111112,
+      "totalPrice": 319.9999555555556
     }
   ]
 }

@@ -19,31 +19,11 @@ const Reservation = () => {
     const [checkInError, setCheckInError] = useState(false);
     const [checkOutError, setCheckOutError] = useState(false);
 
-    const {  setReservationData } = useReservation()
+    const { setReservationData } = useReservation()
     
 
     const navigate = useNavigate()
-    // useEffect(() => {
-    //     const savedFullName = localStorage.getItem('fullName');
-    //     const savedNumber = localStorage.getItem('number');
-    //     const savedEmail = localStorage.getItem('email');
-    //     const savedCheckInDate = localStorage.getItem('checkInDate');
-    //     const savedCheckOutDate = localStorage.getItem('checkOutDate');
 
-    //     if (savedFullName) setFullName(savedFullName);
-    //     if (savedNumber) setNumber(savedNumber);
-    //     if (savedEmail) setEmail(savedEmail);
-    //     if (savedCheckInDate) setCheckInDate(savedCheckInDate);
-    //     if (savedCheckOutDate) setCheckOutDate(savedCheckOutDate);
-    // }, []);
-  
-        // useEffect(() => {
-        //     localStorage.setItem('fullName', fullName);
-        //     localStorage.setItem('number', number);
-        //     localStorage.setItem('email', email);
-        //     localStorage.setItem('checkInDate', checkInDate);
-        //     localStorage.setItem('checkOutDate', checkOutDate);
-        // }, [fullName, number, email, checkInDate, checkOutDate])
 
     const validateForm = () => {
         let valid = true;

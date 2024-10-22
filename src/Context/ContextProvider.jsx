@@ -7,7 +7,7 @@ const initialState = {
     isLoading: false,
     featuredRooms: [], 
     currentRoom: {},
-    bookedRoom: []
+    bookedRoom: JSON.parse(localStorage.getItem('bookedRooms')) || []
 }
 
 
@@ -40,21 +40,27 @@ const reducer = (state, action) =>{
             if (alreadyBooked) {
                 return state; // No change if room is already booked
             }
-            return{
+            const updatedBookedRooms = [...state.bookedRoom, action.payload];
+            localStorage.setItem('bookedRooms', JSON.stringify(updatedBookedRooms)); // Save to localStorage
+            return {
                 ...state,
-                bookedRoom:[...state.bookedRoom, action.payload] 
-            }
+                bookedRoom: updatedBookedRooms,
+            };
         case 'cancel':
-            return{
-                ...state, 
-                bookedRoom: state.bookedRoom.filter(room => room.id !== action.payload)
-            }
+            const filteredBookedRooms = state.bookedRoom.filter(room => room.id !== action.payload);
+            localStorage.setItem('bookedRooms', JSON.stringify(filteredBookedRooms)); // Save updated list to localStorage
+            return {
+                ...state,
+                bookedRoom: filteredBookedRooms,
+            };
 
         case 'checkout':
-            return{
-                ...state, 
-                bookedRoom: state.bookedRoom.filter(room => room.id !== action.payload)
-            }
+            const remainingRooms = state.bookedRoom.filter(room => room.id !== action.payload);
+            localStorage.setItem('bookedRooms', JSON.stringify(remainingRooms)); // Save to localStorage
+            return {
+                ...state,
+                bookedRoom: remainingRooms,
+            };
     
         default:
             throw new Error("Unkwonk action");
@@ -106,13 +112,40 @@ const ContextProvider = ({children}) => {
         dispatch({type: 'booking', payload: book})
     }
 
-    const cancelBooking = (id) => {
+    const cancelBooking = async(id) => {
         dispatch({type: 'cancel', payload: id})
+        await fetch(`http://localhost:5000/bookings/${id}`, {
+            method: 'DELETE',
+        });
     }
     
-    const handleCheckout = (id) =>{
-        dispatch({type: 'checkout', payload:id})
-    }
+    const handleCheckout = async (id) => {
+        dispatch({ type: 'checkout', payload: id });
+        
+        const roomToCheckout = bookedRoom.find(room => room.id === id);
+        
+        if (roomToCheckout) {
+            try {
+                // Send the checked-out room data to your server
+                await fetch('http://localhost:5000/checkIn', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        id: roomToCheckout.id,
+                        name: roomToCheckout.name,
+                        checkOutDate: roomToCheckout.formattedCheckOutDate, // Ensure this is available
+                        totalDays: roomToCheckout.totalDays, // Ensure this is available
+                        totalPrice: roomToCheckout.pricePerNight * roomToCheckout.totalDays, // Or however you calculate it
+                    }),
+                });
+            } catch (error) {
+                console.error('Error checking out:', error);
+            }
+        }
+    };
+    
   return (
     <RoomContext.Provider
         value={{

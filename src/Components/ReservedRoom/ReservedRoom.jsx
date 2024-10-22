@@ -19,12 +19,12 @@ const ReservedRoom = () => {
                         <h2 className="text-2xl font-bold text-gray-800 mt-4">{room.name}</h2>
                         <p className="text-gray-700"><strong>Bed Type:</strong> {room.bedType}</p>
                         <p className="text-gray-700"><strong>Max Guests:</strong> {room.maxGuests}</p>
-                        <p className="text-gray-700"><strong>Check In:</strong> {room.checkInDate}</p>
-                        <p className="text-gray-700"><strong>Check Out:</strong> {room.checkOutDate}</p>
+                        <p className="text-gray-700"><strong>Check In:</strong> {room.formattedCheckInDate}</p>
+                        <p className="text-gray-700"><strong>Check Out:</strong> {room.formattedCheckOutDate}</p>
                         <p className="text-gray-700"><strong>Price per Night:</strong> ${room.pricePerNight}</p>
-                        <p className="text-gray-700"><strong>Total Days:</strong> {room.totalDays}</p>
+                        <p className="text-gray-700"><strong>Total Days:</strong> {Math.ceil(room.totalDays)}</p>
                         <p className="flex items-center justify-between text-lg font-semibold text-gray-800 mt-4">
-                            <span className="font-bold">Total Price:</span> ${room.pricePerNight * room.totalDays}
+                            <span className="font-bold">Total Price:</span> ${(room.pricePerNight * room.totalDays).toFixed(2)}
                         </p>
                     </div>
                     <div className="flex justify-between mt-4">
